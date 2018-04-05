@@ -1,0 +1,29 @@
+0.2.1:
+-----
+Release date: **06.02.2018**
+
+ * Fix db seeder
+ * Merge branch 'release/0.2.0' into develop
+ * Merge branch 'release/0.2.0'
+ * Merge branch 'release/v0.1.0'
+
+0.2.0:
+-----
+Release date: **06.02.2018**
+
+ * Fix bumpversion script
+ * Add seeder for the default admin user and role
+
+
+0.1.0:
+-----
+Release date: **06.02.2018**
+
+ * Version package metadata and cli script
+ * Add zizaco/entrust dependency to composer.json
+ * Setup config file
+ * Add migrations
+ * Fix namespace
+ * Add composer json file
+ * Initial commit
+

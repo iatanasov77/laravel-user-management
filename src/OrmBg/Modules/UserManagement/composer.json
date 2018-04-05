@@ -1,0 +1,13 @@
+{
+	"name" : "orm/user_management",
+	"authors" : [{
+			"name" : "Nicolas Widart",
+			"email" : "n.widart@gmail.com"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"Modules\\Users\\" : ""
+		}
+	}
+}

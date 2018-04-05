@@ -1,0 +1,24 @@
+{
+"name": "ormbg/user-management",
+    "description": "The OrmBg user management module.",
+    "keywords": ["ormbg", "framework", "laravel", "core" ],
+    "license": "MIT",
+    "homepage": "https://orm.bg",
+    "authors": [
+        {
+            "name": "Ivan I. Atanasov",
+            "email": "iatanasov@orm.bg"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+       "laravel/framework" : "5.5.*",
+       "zizaco/entrust": "5.2.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "OrmBg\\": "src/OrmBg/"
+        }
+    },
+    "minimum-stability" : "dev"
+}
