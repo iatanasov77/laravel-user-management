@@ -1,13 +1,13 @@
 {
-"name": "ormbg/user-management",
-    "description": "The OrmBg user management module.",
-    "keywords": ["ormbg", "framework", "laravel", "core" ],
+"name": "iatanasov77/laravel-user-management",
+    "description": "The iatanasov Laravel  user management module.",
+    "keywords": ["framework", "laravel", "user management" ],
     "license": "MIT",
-    "homepage": "https://orm.bg",
+    "homepage": "https://github.com/iatanasov77",
     "authors": [
         {
             "name": "Ivan I. Atanasov",
-            "email": "iatanasov@orm.bg"
+            "email": "i.atanasov77@gmail.com"
         }
     ],
     "require": {
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OrmBg\\": "src/OrmBg/"
+            "IA\\LaravelUserManagement\\": "src/"
         }
     },
     "minimum-stability" : "dev"

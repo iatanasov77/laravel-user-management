@@ -1,4 +1,4 @@
-<?php namespace OrmBg\Modules\UserManagement\Entities;
+<?php namespace IA\LaravelUserManagement\Entities;
 
 use Zizaco\Entrust\EntrustPermission;
 

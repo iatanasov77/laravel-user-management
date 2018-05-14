@@ -1,6 +1,6 @@
 <?php
 
-namespace OrmBg\Modules\UserManagement\Http\Requests;
+namespace IA\LaravelUserManagement\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
