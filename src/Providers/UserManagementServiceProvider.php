@@ -1,4 +1,4 @@
-<?php namespace OrmBg\UserManagement\Providers;
+<?php namespace ia\UserManagement\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
@@ -44,11 +44,11 @@ class UserManagementServiceProvider extends ServiceProvider
     protected function registerConfig()
     {
         $this->publishes([
-            __DIR__.'/../Config/config.php' => config_path( 'ormbg/usermanagement.php' ),
+            __DIR__.'/../Config/config.php' => config_path( 'ia/usermanagement.php' ),
         ], 'config');
         
         $this->mergeConfigFrom(
-            __DIR__.'/../Config/config.php', 'ormbg.usermanagement'
+            __DIR__.'/../Config/config.php', 'ia.usermanagement'
         );
     }
 

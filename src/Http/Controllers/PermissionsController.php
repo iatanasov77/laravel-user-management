@@ -1,11 +1,11 @@
 <?php
 
-namespace OrmBg\Modules\UserManagement\Http\Controllers;
+namespace IA\LaravelUserManagement\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Response;
-use OrmBg\Modules\UserManagement\Entities\Permission;
-use OrmBg\Modules\UserManagement\Entities\Role;
+use IA\LaravelUserManagement\Entities\Permission;
+use IA\LaravelUserManagement\Entities\Role;
 
 class PermissionsController extends Controller
 {

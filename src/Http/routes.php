@@ -3,13 +3,13 @@
 use Illuminate\Support\Facades\Request;
 
 Route::group( ['prefix' => Request::segment( 1 )], function () {
-    Route::group( ['middleware' => 'web', 'prefix' => 'admin', 'namespace' => 'OrmBg\Modules\UserManagement\Http\Controllers'], function()
+    Route::group( ['middleware' => 'web', 'prefix' => 'admin', 'namespace' => 'IA\LaravelUserManagement\Http\Controllers'], function()
     {
 
-        //Route::model( 'users', 'OrmBg\Modules\UserManagement\Entity\User');
+        //Route::model( 'users', 'IA\LaravelUserManagement\Entity\User');
         Route::resource( 'users/users', 'UsersController', [ 'as' => 'admin.users'] );
 
-        //Route::model( 'roles', 'OrmBg\Modules\UserManagement\Entity\Role');
+        //Route::model( 'roles', 'IA\LaravelUserManagement\Entity\Role');
         Route::resource( 'users/roles', 'RolesController', [ 'as' => 'admin.users'] );
 
         Route::get( 'permissions/json_tree/{roleId}', 'PermissionsController@jsonTree' )
