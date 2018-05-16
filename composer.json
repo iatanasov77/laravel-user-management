@@ -3,7 +3,7 @@
     "description": "The iatanasov Laravel  user management module.",
     "keywords": ["framework", "laravel", "user management" ],
     "license": "MIT",
-    "homepage": "https://github.com/iatanasov77",
+    "homepage": "https://github.com/iatanasov77/laravel-user-management.git",
     "authors": [
         {
             "name": "Ivan I. Atanasov",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "IA\\LaravelUserManagement\\": "src/"
+            "IA\\Laravel\\Modules\\UserManagement\\": "src/"
         }
     },
     "minimum-stability" : "dev"
