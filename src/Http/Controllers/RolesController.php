@@ -1,11 +1,11 @@
 <?php
 
-namespace IA\LaravelUserManagement\Http\Controllers;
+namespace IA\Laravel\Modules\UserManagement\Http\Controllers;
 
 use Illuminate\Database\Eloquent\Model;
 
 use OrmBg\Core\CRUD\ResourceController;
-use IA\LaravelUserManagement\Entities\Permission;
+use IA\Laravel\Modules\UserManagement\Entities\Permission;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 

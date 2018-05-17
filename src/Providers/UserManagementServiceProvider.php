@@ -1,4 +1,4 @@
-<?php namespace IA\LaravelUserManagement\Providers;
+<?php namespace IA\Laravel\Modules\UserManagement\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
