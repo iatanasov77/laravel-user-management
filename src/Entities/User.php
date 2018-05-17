@@ -1,4 +1,4 @@
-<?php namespace IA\LaravelUserManagement\Entities;
+<?php namespace IA\Laravel\Modules\UserManagement\Entities;
 
 use Zizaco\Entrust\Traits\EntrustUserTrait;
 use Illuminate\Database\Eloquent\Model;
@@ -16,7 +16,7 @@ class User extends Model implements Authenticatable
 
     public function roles()
     {
-        return $this->belongsToMany( 'IA\LaravelUserManagement\Entities\Role', 'um_users_roles' );
+        return $this->belongsToMany( 'IA\Laravel\Modules\UserManagement\Entities\Role', 'um_users_roles' );
     }
 
 

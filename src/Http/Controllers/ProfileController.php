@@ -1,4 +1,4 @@
-<?php namespace IA\LaravelUserManagement\Http\Controllers;
+<?php namespace IA\Laravel\Modules\UserManagement\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -34,10 +34,10 @@ class ProfileController extends UsersController
     protected function initResource()
     {
         $this->config   = [
-            'entityType'    => '\IA\LaravelUserManagement\Entities\User',
+            'entityType'    => '\IA\Laravel\Modules\UserManagement\Entities\User',
             'viewNamespace' => 'admin.modules.users.profile',
             'routePath'     => '/admin/profile',
-            'requestClass'  => '\IA\LaravelUserManagement\Http\Requests\UsersRequest'
+            'requestClass'  => '\IA\Laravel\Modules\UserManagement\Http\Requests\UsersRequest'
         ];
     }
 }

@@ -1,11 +1,11 @@
-<?php namespace IA\LaravelUserManagement\Http\Controllers;
+<?php namespace IA\Laravel\Modules\UserManagement\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Database\Eloquent\Model;
 
-use OrmBg\Core\CRUD\ResourceController;
-use IA\LaravelUserManagement\Entities\Role;
+use IA\Laravel\Core\CRUD\ResourceController;
+use IA\Laravel\Modules\UserManagement\Entities\Role;
 
 class UsersController extends ResourceController
 {
