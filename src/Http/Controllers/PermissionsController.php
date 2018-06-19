@@ -1,11 +1,11 @@
 <?php
 
-namespace IA\LaravelUserManagement\Http\Controllers;
+namespace IA\Laravel\Modules\UserManagement\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Response;
-use IA\LaravelUserManagement\Entities\Permission;
-use IA\LaravelUserManagement\Entities\Role;
+use IA\Laravel\Modules\UserManagement\Entities\Permission;
+use IA\Laravel\Modules\UserManagement\Entities\Role;
 
 class PermissionsController extends Controller
 {

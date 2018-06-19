@@ -1,4 +1,4 @@
-<?php namespace IA\LaravelUserManagement\Entities;
+<?php namespace IA\Laravel\Modules\UserManagement\Entities;
 
 use Zizaco\Entrust\EntrustRole;
 
@@ -8,11 +8,11 @@ class Role extends EntrustRole
 
     public function permissions()
     {
-        return $this->belongsToMany( 'IA\LaravelUserManagement\Entities\Permission', 'um_roles_permissions' );
+        return $this->belongsToMany( 'IA\Laravel\Modules\UserManagement\Entities\Permission', 'um_roles_permissions' );
     }
 
     public function users()
     {
-        return $this->belongsToMany( 'IA\LaravelUserManagement\Entities\User', 'um_users_roles' );
+        return $this->belongsToMany( 'IA\Laravel\Modules\UserManagement\Entities\User', 'um_users_roles' );
     }
 }

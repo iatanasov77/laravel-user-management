@@ -1,4 +1,4 @@
-<?php namespace IA\LaravelUserManagement\Entities;
+<?php namespace IA\Laravel\Modules\UserManagement\Entities;
 
 use Illuminate\Database\Eloquent\Relations\Pivot;
 
